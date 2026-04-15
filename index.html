@@ -94,6 +94,10 @@
             color: #555;
             margin-top: 15px;
         }
+        .mobile-logo {
+            display: none;
+        }
+
         @media (max-width: 768px) {
             .wrapper {
                 flex-direction: column;
@@ -103,7 +107,28 @@
                 display: none;
             }
             .container {
-                width: 90%;
+                width: 92%;
+                padding: 28px 22px;
+            }
+            .mobile-logo {
+                display: block;
+                width: 64px;
+                height: 64px;
+                object-fit: contain;
+                margin: 0 auto 12px auto;
+                opacity: 0.85;
+                filter: drop-shadow(0 2px 6px rgba(138,43,226,0.25));
+            }
+            h2 {
+                font-size: 20px;
+            }
+            button {
+                padding: 14px;
+                font-size: 17px;
+            }
+            input, textarea {
+                font-size: 15px;
+                padding: 11px;
             }
         }
     </style>
@@ -115,6 +140,7 @@
         </div>
 
         <div class="container">
+            <img class="mobile-logo" src="https://img.icons8.com/?size=512&id=13447&format=png" alt="WinRAR">
             <h2>Generador de Claves WinRAR</h2>
             <label>Nombre de usuario:</label>
             <input id="username" value="Microsoft Corporation" maxlength="50">
