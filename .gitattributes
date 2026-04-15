@@ -1,0 +1,6 @@
+# Forzar detección de lenguajes en GitHub Linguist
+keygen.js    linguist-language=JavaScript
+keygen.js    linguist-vendored=false
+keygen.js    linguist-generated=false
+*.wasm       linguist-language=WebAssembly
+*.wasm       linguist-detectable=true
