@@ -90,17 +90,21 @@ UID=<20 chars hex — 80 bits — punto público EC>
 
 ---
 
-## Uso local
+## Uso
 
-### Opción A — Directo en el navegador
+### Opción A — GitHub Pages (sin instalar nada)
 
-Abre `index.html` en cualquier navegador moderno. No requiere servidor.
+```
+https://joshegatito.github.io/winrar/
+```
 
-### Opción B — Con servidor local (Laragon / XAMPP)
+### Opción B — Servidor local (Laragon / XAMPP)
 
 ```
 http://localhost/winrar/
 ```
+
+> **Nota:** El archivo `keygen.wasm` requiere ser servido por HTTP. No funciona abriendo `index.html` directamente desde el explorador de archivos (`file://`).
 
 ---
 
